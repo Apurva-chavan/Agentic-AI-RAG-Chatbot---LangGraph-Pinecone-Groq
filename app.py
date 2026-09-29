@@ -49,6 +49,16 @@ class QueryResponse(BaseModel):
 
 # ── Routes ────────────────────────────────────────────────────────────────────
 
+@app.get("/")
+def root():
+    return {
+        "message": "Agentic AI RAG Chatbot API is running!",
+        "docs": "/docs",
+        "health": "/health",
+        "chat": "POST /chat"
+    }
+
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
