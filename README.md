@@ -1,5 +1,11 @@
 # 🤖 Agentic AI RAG Chatbot
 
+## 🌐 Live Demo
+
+- **API (FastAPI):** https://agentic-ai-rag-chatbot-langgraph.onrender.com
+- **Interactive Docs:** https://agentic-ai-rag-chatbot-langgraph.onrender.com/docs
+- **GitHub:** https://github.com/Apurva-chavan/Agentic-AI-RAG-Chatbot---LangGraph-Pinecone-Groq
+
 A production-ready **Retrieval-Augmented Generation (RAG)** chatbot built with **LangGraph**, **Pinecone**, and **OpenAI** that answers queries strictly grounded in the *Agentic AI* eBook.
 
 ---
